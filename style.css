@@ -1,0 +1,33 @@
+#anim{
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-color:red;
+	animation-name:anim;
+	animation-duration:5s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+}
+@keyframes anim{
+	0%{
+		left:0px;
+		top:0px;
+		background-color:orange;
+}
+	25%{
+		left:100px;
+		top:100px;
+		background-color:yellow;
+}
+	50%{
+		left:200px;
+		top:200px;
+		background-color:green;
+}
+	100%{
+		left:300px;
+		background-color:blue;
+}
+	to{
+		background-color:purple;}
+}
